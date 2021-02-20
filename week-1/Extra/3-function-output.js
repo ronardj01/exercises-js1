@@ -1,9 +1,11 @@
 // Add comments to explain what this function does. You're meant to use Google!
+//Retorna un numero aleatorio de un digito entero (0-9).
 function getNumber() {
   return Math.random() * 10;
 }
 
 // Add comments to explain what this function does. You're meant to use Google!
+//Combina dos cadenas de texto
 function s(w1, w2) {
   return w1.concat(w2);
 }
@@ -11,6 +13,7 @@ function s(w1, w2) {
 function concatenate(firstWord, secondWord, thirdWord) {
   // Write the body of this function to concatenate three words together.
   // Look at the test case below to understand what this function is expected to return.
+  return firstWord.concat(" ", secondWord, " ",thirdWord);
 }
 
 /* ======= TESTS - DO NOT MODIFY =====
