@@ -25,6 +25,27 @@ console.log(estudiantes);
 console.log(profesores);
 console.log("");
 
+// Ejercicio 1 otra forma.
+console.log("******////////////////////******")
+
+function percentage2 (std, mtr) {
+    let total = std + mtr;
+    let porciento = std / total * 100;
+    let stdPercentage = Math.round(porciento);
+    return stdPercentage;
+}
+
+function createGreeting2(std, mtr) {
+    let stdPercentage = percentage2(std, mtr);
+    let mtrPercentage = 100 - stdPercentage;
+    const mensaje = `Percentage students: ${stdPercentage}%\nPercentage mentors: ${mtrPercentage}`;
+    return mensaje;
+}
+
+let stdAndMtr = createGreeting2(23,14);
+console.log(stdAndMtr);
+console.log("")
+
 // Ejercicio 2.
 console.log("*****///////////////////////*****");
 
