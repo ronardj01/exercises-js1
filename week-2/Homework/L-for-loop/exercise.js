@@ -8,10 +8,10 @@
 
 let n = 10;
 
-function sumTillNum(num){
-	//your code here
+function sumTillNum(num) {
+  //your code here
   let suma = 0;
-  for(let i = num; i > 0; i--){
+  for (let i = num; i > 0; i--) {
     suma += i;
   }
   return suma;
