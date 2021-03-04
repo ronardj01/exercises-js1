@@ -5,7 +5,11 @@
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
 var group = ["Austine", "Dany", "Swathi", "Daniel"];
 
-var groupIsOnlyStudents; // complete this statement
+function checkStudents(name) {
+  return students.indexOf(name) >= 0;
+} //PREGUNTAR PARA QUE LA FUNCION SEA COMPLETAMENTENTE INDEPENDIENTE????????????????????????????????
+
+var groupIsOnlyStudents = group.every(checkStudents); // complete this statement
 
 if (groupIsOnlyStudents) {
   console.log("The group contains only students");
