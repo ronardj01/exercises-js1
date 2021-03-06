@@ -18,4 +18,4 @@ function abracaFunction(yourFunc) {
   return abracaOutput;
 }
 
-console.log(abracaFunction(cambiarMauscula))
+console.log(abracaFunction(cambiarMayuscula))
