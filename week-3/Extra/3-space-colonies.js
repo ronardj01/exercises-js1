@@ -8,8 +8,9 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
-
+function colonisers(array) {
+  let includeFamily = array.filter(element => element.includes("family"));
+  return includeFamily.filter(element => element.startsWith("A"));
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
